@@ -21,7 +21,7 @@
 title: jeffkenton.com
 email: jkenton@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-This is the descendent of a number of blogs I have created over time. Why? That is a very nice question.
+  I am tired and cranky. What a great reason to resurrect a blog site!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jeffkenton.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jkenton
