@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html>
-
+before head
   {% include head.html %}
-
+after head
   <body>
+    before header
     {% include header.html %}
+after header
+before content
+  <div class="page-content">
 
-    <div class="page-content">
 	<div class="wrapper"> 
         {{ content }}
 	</div>
+after content
     </div>
-
+before footer
     {% include footer.html %}
-
+after footer
   </body>
 
 </html>
