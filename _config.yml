@@ -21,8 +21,7 @@
 title: jeffkenton.com
 email: jkenton@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I am tired and cranky. What a great reason to resurrect a blog site! This site is a compendium of 
-  posts from across time... So yes, this incarnation was created in July 2024, but comes from before that. 
+ 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jeffkenton.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jkenton
