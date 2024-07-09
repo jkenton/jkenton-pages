@@ -1,20 +1,36 @@
 <!DOCTYPE html>
 <html>
+
+
 before head
   {% include head.html %}
 after head
   <body>
     before header
     {% include header.html %}
+    <img src="{{site.baseurl}}/images/mr-slate.jpg" width="50px">
+<img src="{{site.baseurl}}/images/Mensa_badge.png" width="50px">
 after header
-before content
+
+<table><tr><td width="25%">
+  {site.title}
+
+
+</td><td width="75%">
+  
+  
+  before content
+
+
   <div class="page-content">
 
 	<div class="wrapper"> 
         {{ content }}
 	</div>
-after content
+
     </div>
+after content
+  </td></tr></table>
 before footer
     {% include footer.html %}
 after footer
