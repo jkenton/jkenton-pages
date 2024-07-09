@@ -1,7 +1,7 @@
 ---
 title: "Some Things I Learned June 30 - July 6, 2024"
 date: 2024-07-08 06:00:00
-layout: post
+layout: post-a
 comments: true
 ---
 
