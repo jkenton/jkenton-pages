@@ -5,7 +5,6 @@ layout: default
 
 <div class="home">
 
-<table><tr><td>
 <h3 class="page-heading">Posts</h3>
 
   <ul class="post-list">
@@ -21,6 +20,5 @@ layout: default
   </ul>
 
 </div>
-</td><td valign="top">
 
-</td></tr></table>
+
