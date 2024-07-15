@@ -1,5 +1,5 @@
 ---
-title: "# Some Things I Learned July 7 - July 13, 2024"
+title: "Some Things I Learned July 7 - July 13, 2024"
 date: 2024-07-15 06:00:00
 layout: post
 comments: true
