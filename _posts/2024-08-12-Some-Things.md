@@ -15,3 +15,6 @@ comments: true
 Perhaps the theme this week is to know - deep in your heart - that you cannot hope to change someone who doesn't want (or see the need) to change. And furthermore, to acknowledge that it may not be your place to affect the change in the first place.
 
 Eyes front. Stay in your lane. Mind your Ps and Qs. Mind your own business, etc.
+
+HAVE A GREAT WEEK!
+
