@@ -8,10 +8,10 @@ comments: true
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iasWaoYiyJY?si=qr-6bIUkV8UYvWWi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-		"The surest way to tell the people who had arrived there for an anachronistic weekend versus those who came every year was to look around and see who could hold their booze. Because everyone was drinking like they needed to forget some horrible thing they'd done." -- Wright Thompson, *Pappyland*
+> "The surest way to tell the people who had arrived there for an anachronistic weekend versus those who came every year was to look around and see who could hold their booze. Because everyone was drinking like they needed to forget some horrible thing they'd done." -- Wright Thompson, *Pappyland*
 
 
-		"The Ole Miss band used to play a slow version of "Dixie" before the game, and even as I winced at the Confederate nostalgia, I also teared up because the song reminded me of my father. That's what Patterson Hood called the 'Duality of the Southern Thing'." -- Wright Thompson, *Pappyland*
+> "The Ole Miss band used to play a slow version of "Dixie" before the game, and even as I winced at the Confederate nostalgia, I also teared up because the song reminded me of my father. That's what Patterson Hood called the 'Duality of the Southern Thing'." -- Wright Thompson, *Pappyland*
 
 I think Wright also wrote that NOSTALGIA is "home pain" from the (I guess) Greek. Whereas, the modern dictionaries leave out the painful connotations: "a sentimental longing or wistful affection for the past, typically for a period or place with happy personal associations."
 
