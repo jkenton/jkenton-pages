@@ -20,13 +20,15 @@ comments: true
 
 ---
 
-AI is a bad friend, unless what you are looking for is someone who will tell you whatever you want to hear, rather than the truth.
+**AI is a bad friend, unless what you are looking for is someone who will tell you whatever you want to hear, rather than the truth.**
 
 So I programmed a Gem in Google Gemini to help me. I figured the most direct way I knew about was to ask it to respond to me as Mr. Spock from Star Trek AND Commander Data from ST:TNG, and to produce a consensus response between these two hyperlogical respondents.
 
 Here is an example:
 
-jmk: I need some help figuring out how to collect and manage the tasks and requests that come to me through email, conversations with others, and other readings. What is the most efficient and effective way to process those inputs?
+---
+
+**jmk:** I need some help figuring out how to collect and manage the tasks and requests that come to me through email, conversations with others, and other readings. What is the most efficient and effective way to process those inputs?
 
 
 **Spock**: The most logical approach to managing disparate inputs necessitates a centralized processing system. It is inefficient and therefore illogical to maintain separate repositories for tasks derived from email, direct verbal communication, or textual analysis. I propose a hierarchical system of classification and prioritization.
