@@ -26,7 +26,7 @@ Lately, Sade has been bouncing around in my head, clearly.
  <img src="/images/da-pope.jpeg" alt="Pope Leo XIV (then Robert Prevost), left, at 2005 Game I World Series">
 
 
-This is a partial rant about the frustration that comes with people being surprised at the nature of people's memories.
+[This is a partial rant about the frustration that comes with people being surprised at the nature of people's memories. And before I go even one step further, I do not KNOW that any of my suppositions below are true. I made them confidently because the explanation I provided is so plausible. And it bothers me that people aren't very curious about things that they blabber about on TV.]
 
 Anyway, we have a new pope Leo XIV, as of May 8, 2025. His name previously was Robert Prevost, born in Chicago in 1955. He grew up in Chicago and his ministry, his assignment through the church was in Chicago, Rome, and Peru. A couple of countries that never had a pope before now each claim him, and that's great.
 
