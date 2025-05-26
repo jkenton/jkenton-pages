@@ -42,7 +42,7 @@ Now, fast forward through time, and the people who knew who he was then, remembe
 
 When he becomes Pope, then it's time for people to get on to the barstools and start bragging about how, "Hey, the new pope,... he's a White Sox fan. He was even at the 2005 World Series. I remember seeing him on TV right before the Sox won Game I..."
 
-So when somebody is astounded that his brief appearance on TV was able to be located in as short a time as it was. I don't think that they understand how friend groups work. And it only takes ONE person to get a message to someone who can access the archive. Hell, someone who is even a medium-strength White Sox fan probably had the series TIVO'd... (ask your dad). That person might have even been the person who called in to some sports venue with "proof" that the new Pope was at Game One of the Chicago World Series in 2005. Midwesterners remember that kind of stuff.
+So when somebody is astounded that his brief appearance on TV was able to be located in as short a time as it was... I don't think that person understands how friend groups work (maybe it's just a midwest thing?). It only would take ONE person to get a message to someone who can access the archive. Hell, someone who is even a medium-strength White Sox fan probably had the series TIVO'd... (ask your dad). That person might have even been the person who called in to some sports venue with "proof" that the new Pope was at Game One of the Chicago World Series in 2005. Midwesterners remember that kind of stuff.
 
 In the inimitable words of Mike Wilbon "I'm not surprised."
 
