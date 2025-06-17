@@ -2,7 +2,7 @@
 source:
 tags:
 alias:
-date: 2025-06-17
+date: 2025-06-15
 modified: 2025-06-17T09:32:56-04:00
 title: HAPPY FATHER'S DAY
 layout: post
