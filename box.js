@@ -1,4 +1,5 @@
  <!-- Tailwind CSS CDN; created by Gemini under the direction of jeffkenton -->
+
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         /* Custom styles for background and font */
@@ -39,7 +40,7 @@
             100% { transform: scale(1); }
         }
     </style>
-</head>
+
 <body class="bg-gray-100 flex items-center justify-center min-h-screen">
     <div class="container bg-white rounded-xl shadow-lg p-8 md:p-12 w-full max-w-md mx-auto text-center border border-gray-200">
         <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Box Breathing</h1>
