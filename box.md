@@ -9,7 +9,7 @@ Try this:
 
 
 <script src="https://cdn.tailwindcss.com"></script>
-  <!--  <style>
+<!-- <style>
         /* Custom styles for background and font */
         body {
             font-family: 'Inter', sans-serif;
@@ -21,9 +21,9 @@ Try this:
             margin: 0;
             flex-direction: column;
             padding: 20px;
-        }
+        } -->
 
-        /* Animation for the breathing circle */
+ <!--       /* Animation for the breathing circle */
         .breathing-circle {
             animation-duration: 4s;
             animation-timing-function: linear;
