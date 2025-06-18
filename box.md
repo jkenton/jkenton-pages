@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Box Breathing
 permalink: /box/
 ---
@@ -21,33 +21,37 @@ Try this:
             margin: 0;
             flex-direction: column;
             padding: 20px;
-        } -->
-
- <!--       /* Animation for the breathing circle */
+        }
+-->
+<!--
+      /* Animation for the breathing circle */
         .breathing-circle {
             animation-duration: 4s;
             animation-timing-function: linear;
             animation-iteration-count: infinite;
         }
-
+-->
         .inhale-animation {
             animation-name: inhale;
         }
-
+<!--
         .exhale-animation {
             animation-name: exhale;
         }
-
+-->
+<!--
         @keyframes inhale {
             0% { transform: scale(1); }
             100% { transform: scale(1.1); }
         }
-
+-->
+<!--
         @keyframes exhale {
             0% { transform: scale(1.1); }
             100% { transform: scale(1); }
         }
-    </style> -->
+    </style> 
+-->
 
 <body class="bg-gray-100 flex items-center justify-center min-h-screen">
     <div class="container bg-white rounded-xl shadow-lg p-8 md:p-12 w-full max-w-md mx-auto text-center border border-gray-200">
