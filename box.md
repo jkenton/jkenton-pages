@@ -4,6 +4,6 @@ title: Box Breathing
 permalink: /box/
 ---
 
-<script src="{{ '/_includes/box.js' }}"></script>
+<script src="{{ 'box.js' }}"></script>
 
    
