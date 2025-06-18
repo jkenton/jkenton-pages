@@ -9,7 +9,7 @@ Try this:
 
 
 <script src="https://cdn.tailwindcss.com"></script>
-    <style>
+  <!--  <style>
         /* Custom styles for background and font */
         body {
             font-family: 'Inter', sans-serif;
@@ -47,7 +47,7 @@ Try this:
             0% { transform: scale(1.1); }
             100% { transform: scale(1); }
         }
-    </style>
+    </style> -->
 
 <body class="bg-gray-100 flex items-center justify-center min-h-screen">
     <div class="container bg-white rounded-xl shadow-lg p-8 md:p-12 w-full max-w-md mx-auto text-center border border-gray-200">
