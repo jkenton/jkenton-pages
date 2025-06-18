@@ -1,9 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Box Breathing Exercise</title>
+---
+layout: default
+title: Box Breathing
+permalink: /box/
+---
+
     <!-- Tailwind CSS CDN; created by Gemini under the direction of jeffkenton -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
@@ -235,5 +235,3 @@
             toggleButtons(true); // Ensure buttons are enabled initially
         });
     </script>
-</body>
-</html>
