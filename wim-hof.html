@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wim Hof Breathing Exercise</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles for background and font */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8; /* Light blue-gray background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        /* Animation for the breathing circle - less pronounced for manual clicks */
+        .breathing-circle {
+            transition: transform 0.1s ease-in-out; /* Quick transition for visual feedback on click */
+        }
+
+        /* Specific styles for phase icons/text visibility */
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="container bg-white rounded-xl shadow-lg p-8 md:p-12 w-full max-w-md mx-auto text-center border border-gray-200">
+        <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Wim Hof Breathing</h1>
+
+        <!-- Breathing display area -->
+        <div class="breathing-display mb-8 p-6 bg-blue-50 rounded-lg border border-blue-200">
+            <div id="phase-icon" class="mb-4 flex justify-center items-center h-24">
+                <!-- SVG icons will be dynamically inserted here -->
+            </div>
+            <p id="breathing-phase" class="text-xl md:text-2xl font-semibold text-blue-700 mb-2">Select rounds to start</p>
+
+            <!-- Conditional displays for breath counter and timers -->
+            <p id="breath-counter-display" class="text-xl md:text-2xl font-medium text-gray-600 hidden">Breath: 0/30</p>
+            <p id="timer-display" class="text-xl md:text-2xl font-medium text-gray-600">00:00</p>
+            <p id="round-display" class="text-xl md:text-2xl font-medium text-gray-600 mt-2">Round: 0/0</p>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="flex flex-wrap justify-center gap-3 mb-8">
+            <button class="round-btn bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full shadow-md transition-colors duration-200" data-rounds="3">Start 3 Rounds</button>
+            <button class="round-btn bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full shadow-md transition-colors duration-200" data-rounds="4">Start 4 Rounds</button>
+        </div>
+
+        <div class="flex flex-wrap justify-center gap-3">
+            <!-- New button for manual breath tracking during hyperventilation -->
+            <button id="next-breath-btn" class="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-3 px-8 rounded-full shadow-md transition-colors duration-200 hidden">Next Breath</button>
+            
+            <!-- Button to start the recovery breath after retention -->
+            <button id="start-recovery-btn" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-full shadow-md transition-colors duration-200 hidden">Start Recovery Breath</button>
+
+            <!-- Buttons for end of round decision -->
+            <button id="next-round-btn" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full shadow-md transition-colors duration-200 hidden">Next Round</button>
+            <button id="end-session-btn" class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-full shadow-md transition-colors duration-200 hidden">End Session</button>
+
+            <button id="stop-btn" class="bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-8 rounded-full shadow-md transition-colors duration-200 opacity-50 cursor-not-allowed" disabled>Stop Exercise</button>
+        </div>
+    </div>
+
+    <script>
+        // Get references to DOM elements
+        const breathingPhaseElement = document.getElementById('breathing-phase');
+        const phaseIconElement = document.getElementById('phase-icon');
+        const breathCounterDisplay = document.getElementById('breath-counter-display');
+        const timerDisplay = document.getElementById('timer-display');
+        const roundDisplay = document.getElementById('round-display');
+        const roundButtons = document.querySelectorAll('.round-btn');
+        const nextBreathButton = document.getElementById('next-breath-btn');
+        const startRecoveryButton = document.getElementById('start-recovery-btn'); // Renamed
+        const nextRoundButton = document.getElementById('next-round-btn'); // New
+        const endSessionButton = document.getElementById('end-session-btn'); // New
+        const stopButton = document.getElementById('stop-btn');
+
+        // Wim Hof specific constants
+        const HYPERVENTILATION_BREATHS = 30; // Number of rapid breaths (user clicks)
+        const RECOVERY_BREATH_HOLD_DURATION = 15; // seconds
+
+        // Icons for phases (using simple SVGs)
+        const ICONS = {
+            'Breathing': `<svg xmlns="http://www.w3.org/2000/svg" class="h-20 w-20 text-blue-500 breathing-circle" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M4 12V6a2 2 0 012-2h12a2 2 0 012 2v6m-6 6h-4a2 2 0 01-2-2v-4a2 2 0 012-2h4a2 2 0 012 2v4a2 2 0 01-2 2z" />
+                      </svg>`, // Represents lungs/breathing - neutral
+            'Hold': `<svg xmlns="http://www.w3.org/2000/svg" class="h-20 w-20 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>`, // Ellipsis
+            'Inhale': `<svg xmlns="http://www.w3.org/2000/svg" class="h-20 w-20 text-green-500 breathing-circle" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+                      </svg>`, // Up arrow
+            'Completed': `<svg xmlns="http://www.w3.org/2000/svg" class="h-20 w-20 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>` // Checkmark
+        };
+
+        // State variables
+        let totalRounds = 0;
+        let currentRound = 0;
+        let breathCounter = 0;
+        let timerInterval;
+        let currentTimer = 0;
+        let isRunning = false;
+        let currentPhase = ''; // Tracks 'hyperventilation', 'retention', 'recovery', 'end_of_round'
+
+        /**
+         * Formats seconds into MM:SS string.
+         * @param {number} seconds - The total seconds.
+         * @returns {string} Formatted time string.
+         */
+        function formatTime(seconds) {
+            const minutes = Math.floor(seconds / 60);
+            const remainingSeconds = seconds % 60;
+            return `${String(minutes).padStart(2, '0')}:${String(remainingSeconds).padStart(2, '0')}`;
+        }
+
+        /**
+         * Toggles the visibility and enabled state of control buttons.
+         * @param {boolean} enableRounds - True to enable round selection buttons.
+         * @param {boolean} showNextBreathBtn - True to show the 'Next Breath' button.
+         * @param {boolean} showStartRecoveryBtn - True to show the 'Start Recovery Breath' button.
+         * @param {boolean} showNextRoundBtn - True to show the 'Next Round' button.
+         * @param {boolean} showEndSessionBtn - True to show the 'End Session' button.
+         * @param {boolean} enableStopBtn - True to enable the stop button.
+         */
+        function toggleControls(enableRounds, showNextBreathBtn, showStartRecoveryBtn, showNextRoundBtn, showEndSessionBtn, enableStopBtn) {
+            roundButtons.forEach(button => {
+                button.disabled = !enableRounds;
+                if (enableRounds) {
+                    button.classList.remove('opacity-50', 'cursor-not-allowed');
+                    button.classList.add('hover:bg-blue-700');
+                } else {
+                    button.classList.add('opacity-50', 'cursor-not-allowed');
+                    button.classList.remove('hover:bg-blue-700');
+                }
+            });
+
+            if (showNextBreathBtn) {
+                nextBreathButton.classList.remove('hidden');
+            } else {
+                nextBreathButton.classList.add('hidden');
+            }
+
+            if (showStartRecoveryBtn) {
+                startRecoveryButton.classList.remove('hidden');
+            } else {
+                startRecoveryButton.classList.add('hidden');
+            }
+            
+            if (showNextRoundBtn) {
+                nextRoundButton.classList.remove('hidden');
+            } else {
+                nextRoundButton.classList.add('hidden');
+            }
+
+            if (showEndSessionBtn) {
+                endSessionButton.classList.remove('hidden');
+            } else {
+                endSessionButton.classList.add('hidden');
+            }
+
+            stopButton.disabled = !enableStopBtn;
+            if (enableStopBtn) {
+                stopButton.classList.remove('opacity-50', 'cursor-not-allowed');
+                stopButton.classList.add('hover:bg-red-600');
+            } else {
+                stopButton.classList.add('opacity-50', 'cursor-not-allowed');
+                stopButton.classList.remove('hover:bg-red-600');
+            }
+        }
+
+        /**
+         * Handles the click for the "Next Breath" button during hyperventilation.
+         */
+        function handleNextBreathClick() {
+            if (!isRunning) return;
+
+            breathCounter++;
+            breathCounterDisplay.textContent = `Breath: ${breathCounter}/${HYPERVENTILATION_BREATHS}`;
+
+            // Provide a small visual feedback on button click for breathing
+            const svgElement = phaseIconElement.querySelector('svg');
+            if (svgElement) {
+                svgElement.style.transform = 'scale(1.1)'; // Enlarge briefly
+                setTimeout(() => {
+                    svgElement.style.transform = 'scale(1.0)'; // Return to normal
+                }, 100);
+            }
+
+            if (breathCounter >= HYPERVENTILATION_BREATHS) {
+                nextBreathButton.removeEventListener('click', handleNextBreathClick); // Remove listener
+                startRetentionPhase();
+            }
+        }
+
+        /**
+         * Starts the hyperventilation phase (30 manual breaths).
+         */
+        function startHyperventilation() {
+            currentPhase = 'hyperventilation';
+            breathCounter = 0;
+            breathCounterDisplay.textContent = `Breath: 0/${HYPERVENTILATION_BREATHS}`;
+            breathCounterDisplay.classList.remove('hidden');
+            timerDisplay.classList.add('hidden'); // Hide general timer during breath counting
+            breathingPhaseElement.textContent = "Inhale completely and then exhale completely with no urgency, then press 'Next Breath' to track your progress through the 30 breaths.";
+            phaseIconElement.innerHTML = ICONS['Breathing']; // Neutral icon for this manual phase
+            
+            toggleControls(false, true, false, false, false, true); // Disable round buttons, show next breath, hide others, enable stop
+
+            // Attach event listener for the "Next Breath" button
+            nextBreathButton.addEventListener('click', handleNextBreathClick);
+        }
+
+        /**
+         * Starts the breath retention phase (hold after exhale).
+         */
+        function startRetentionPhase() {
+            currentPhase = 'retention';
+            breathingPhaseElement.textContent = 'Hold Your Breath (Exhale)';
+            phaseIconElement.innerHTML = ICONS['Hold'];
+            breathCounterDisplay.classList.add('hidden'); // Hide breath counter
+            timerDisplay.classList.remove('hidden'); // Show timer
+            currentTimer = 0;
+            timerDisplay.textContent = formatTime(currentTimer);
+            
+            clearInterval(timerInterval); // Ensure any previous timer is cleared
+            timerInterval = setInterval(() => {
+                currentTimer++;
+                timerDisplay.textContent = formatTime(currentTimer);
+            }, 1000);
+            
+            toggleControls(false, false, true, false, false, true); // Hide next breath, show start recovery button, hide others
+        }
+
+        /**
+         * Starts the recovery breath phase.
+         */
+        function startRecoveryPhase() {
+            currentPhase = 'recovery';
+            clearInterval(timerInterval); // Stop retention timer
+            breathingPhaseElement.textContent = `Inhale Deeply & Hold for ${RECOVERY_BREATH_HOLD_DURATION} seconds`;
+            phaseIconElement.innerHTML = ICONS['Inhale'];
+            timerDisplay.textContent = formatTime(RECOVERY_BREATH_HOLD_DURATION);
+            
+            toggleControls(false, false, false, false, false, true); // Hide start recovery button, hide end of round buttons
+
+            currentTimer = RECOVERY_BREATH_HOLD_DURATION;
+            timerInterval = setInterval(() => {
+                currentTimer--;
+                timerDisplay.textContent = formatTime(currentTimer);
+
+                if (currentTimer <= 0) {
+                    clearInterval(timerInterval);
+                    promptNextRoundOrComplete(); // New function to prompt user
+                }
+            }, 1000);
+        }
+
+        /**
+         * Prompts the user to go to the next round or end the session.
+         */
+        function promptNextRoundOrComplete() {
+            currentPhase = 'end_of_round';
+            breathingPhaseElement.textContent = 'Round Complete. What\'s next?';
+            phaseIconElement.innerHTML = ICONS['Completed']; // Use a checkmark or similar for round completion
+            timerDisplay.classList.add('hidden'); // Hide timer after completion of recovery breath
+            breathCounterDisplay.classList.add('hidden'); // Ensure breath counter is hidden
+            roundDisplay.textContent = `Round ${currentRound}/${totalRounds} Complete!`;
+
+            const hasMoreRounds = (currentRound < totalRounds);
+            toggleControls(false, false, false, hasMoreRounds, true, true); // Hide others, show next round if applicable, show end session
+        }
+
+        /**
+         * Advances to the next round or completes the exercise.
+         */
+        function nextRound() {
+            currentRound++;
+            if (currentRound <= totalRounds) {
+                roundDisplay.textContent = `Round: ${currentRound}/${totalRounds}`;
+                startHyperventilation(); // Start the next round
+            } else {
+                completeExercise();
+            }
+        }
+
+        /**
+         * Completes the entire exercise session.
+         */
+        function completeExercise() {
+            isRunning = false;
+            breathingPhaseElement.textContent = 'Exercise Completed!';
+            phaseIconElement.innerHTML = ICONS['Completed'];
+            timerDisplay.textContent = ''; // Clear timer
+            breathCounterDisplay.classList.add('hidden'); // Hide breath counter
+            roundDisplay.textContent = 'Great Job!';
+            
+            toggleControls(true, false, false, false, false, false); // Enable round buttons, hide others, disable stop
+        }
+
+        /**
+         * Stops the exercise at any point.
+         */
+        function stopExercise() {
+            isRunning = false;
+            // Clear any active intervals/timeouts
+            if (timerInterval) clearInterval(timerInterval);
+            nextBreathButton.removeEventListener('click', handleNextBreathClick); // Remove manual breath listener
+            startRecoveryButton.removeEventListener('click', startRecoveryPhase); // Remove listener
+
+            breathingPhaseElement.textContent = 'Exercise Stopped';
+            phaseIconElement.innerHTML = ''; // Clear icon
+            breathCounterDisplay.classList.add('hidden');
+            timerDisplay.textContent = '00:00';
+            roundDisplay.textContent = 'Round: 0/0';
+            
+            toggleControls(true, false, false, false, false, false); // Enable round buttons, hide others, disable stop
+        }
+
+        // Event listeners
+        roundButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                if (isRunning) return; // Prevent starting if already running
+                totalRounds = parseInt(button.dataset.rounds);
+                currentRound = 0;
+                isRunning = true;
+                nextRound(); // Start the first round
+            });
+        });
+
+        startRecoveryButton.addEventListener('click', startRecoveryPhase);
+        nextRoundButton.addEventListener('click', nextRound); // New listener
+        endSessionButton.addEventListener('click', completeExercise); // New listener
+        stopButton.addEventListener('click', stopExercise);
+
+        // Initial state when the page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            breathingPhaseElement.textContent = 'Select rounds to start your Wim Hof session.';
+            phaseIconElement.innerHTML = '';
+            timerDisplay.textContent = '00:00';
+            roundDisplay.textContent = 'Round: 0/0';
+            breathCounterDisplay.classList.add('hidden');
+            toggleControls(true, false, false, false, false, false); // Ensure buttons are enabled initially, others hidden/disabled
+        });
+    </script>
+</body>
+</html>
