@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timed Breathing Exercise</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles for background and font */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8; /* Light blue-gray background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        /* Animation for the breathing circle */
+        .breathing-circle {
+            transition: transform 0.8s ease-in-out; /* Smooth transition for 5-sec breaths */
+        }
+
+        .inhale-animation {
+            transform: scale(1.15); /* Slightly larger for inhale */
+        }
+
+        .exhale-animation {
+            transform: scale(0.85); /* Slightly smaller for exhale */
+        }
+
+        /* Specific styles for phase icons/text visibility */
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="container bg-white rounded-xl shadow-lg p-8 md:p-12 w-full max-w-md mx-auto text-center border border-gray-200">
+        <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Guided Breathing</h1>
+
+        <!-- Breathing display area -->
+        <div class="breathing-display mb-8 p-6 bg-blue-50 rounded-lg border border-blue-200">
+            <div id="phase-icon" class="mb-4 flex justify-center items-center h-24">
+                <!-- SVG icons will be dynamically inserted here -->
+            </div>
+            <p id="breathing-phase" class="text-2xl md:text-3xl font-semibold text-blue-700 mb-2">Ready to begin?</p>
+            <p id="session-timer" class="text-xl md:text-2xl font-medium text-gray-600">05:00</p>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="flex flex-wrap justify-center gap-3">
+            <button id="start-btn" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full shadow-md transition-colors duration-200">Start Breathing</button>
+            <button id="stop-btn" class="bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-8 rounded-full shadow-md transition-colors duration-200 opacity-50 cursor-not-allowed" disabled>Stop Exercise</button>
+        </div>
+    </div>
+
+    <script>
+        // Get references to DOM elements
+        const breathingPhaseElement = document.getElementById('breathing-phase');
+        const phaseIconElement = document.getElementById('phase-icon');
+        const sessionTimerElement = document.getElementById('session-timer');
+        const startButton = document.getElementById('start-btn');
+        const stopButton = document.getElementById('stop-btn');
+
+        // Breathing cycle constants
+        const INHALE_DURATION = 5; // seconds
+        const EXHALE_DURATION = 5; // seconds
+        const SESSION_DURATION_MINUTES = 5; // minutes
+        const SESSION_DURATION_SECONDS = SESSION_DURATION_MINUTES * 60;
+
+        // Icons for phases (simple SVGs)
+        const ICONS = {
+            'Inhale': `<svg xmlns="http://www.w3.org/2000/svg" class="h-20 w-20 text-green-500 breathing-circle" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+                      </svg>`, // Up arrow for inhale
+            'Exhale': `<svg xmlns="http://www.w3.org/2000/svg" class="h-20 w-20 text-red-500 breathing-circle" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                      </svg>`, // Down arrow for exhale
+            'Ready': `<svg xmlns="http://www.w3.org/2000/svg" class="h-20 w-20 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>`, // Clock icon
+            'Completed': `<svg xmlns="http://www.w3.org/2000/svg" class="h-20 w-20 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>` // Checkmark
+        };
+
+        // Audio Context (will be initialized on first user interaction)
+        let audioContext = null;
+        let metronomeOscillator = null;
+        let metronomeGain = null;
+        let breathingPhaseTimeout = null;
+        let sessionCountdownInterval = null;
+        let metronomeInterval = null;
+        let inhaleToneOscillator = null; // New oscillator for continuous inhale tone
+        let inhaleToneGain = null; // New gain node for continuous inhale tone
+        let currentSessionTime = SESSION_DURATION_SECONDS;
+        let isRunning = false;
+        let currentBreathingPhase = 'inhale'; // Tracks 'inhale' or 'exhale'
+
+        /**
+         * Initializes the Web Audio API context and nodes.
+         */
+        function initializeAudio() {
+            if (audioContext === null) {
+                audioContext = new (window.AudioContext || window.webkitAudioContext)();
+                if (audioContext.state === 'suspended') {
+                    audioContext.resume(); // Resume if suspended by browser policy
+                }
+            }
+        }
+
+        /**
+         * Starts the 108 Hz inhale tone for the duration of INHALE_DURATION.
+         */
+        function startInhaleTone() {
+            if (!audioContext) return;
+
+            // Stop any existing inhale tone
+            stopInhaleTone();
+
+            inhaleToneOscillator = audioContext.createOscillator();
+            inhaleToneGain = audioContext.createGain();
+
+            inhaleToneOscillator.type = 'sine';
+            inhaleToneOscillator.frequency.setValueAtTime(108, audioContext.currentTime); // 108 Hz tone
+            inhaleToneGain.gain.setValueAtTime(0.3, audioContext.currentTime); // Tone volume
+
+            inhaleToneOscillator.connect(inhaleToneGain);
+            inhaleToneGain.connect(audioContext.destination);
+
+            inhaleToneOscillator.start(audioContext.currentTime);
+            // Stop the tone after the INHALE_DURATION
+            inhaleToneOscillator.stop(audioContext.currentTime + INHALE_DURATION);
+
+            // Clean up the oscillator and gain node after they stop playing
+            inhaleToneOscillator.onended = () => {
+                if (inhaleToneOscillator) {
+                    inhaleToneOscillator.disconnect();
+                    inhaleToneOscillator = null;
+                }
+                if (inhaleToneGain) {
+                    inhaleToneGain.disconnect();
+                    inhaleToneGain = null;
+                }
+            };
+        }
+
+        /**
+         * Stops the 108 Hz inhale tone.
+         */
+        function stopInhaleTone() {
+            if (inhaleToneOscillator) {
+                try {
+                    inhaleToneOscillator.stop();
+                } catch (e) {
+                    // console.warn("Error stopping inhaleToneOscillator:", e);
+                } finally {
+                    inhaleToneOscillator.disconnect();
+                    inhaleToneOscillator = null;
+                }
+            }
+            if (inhaleToneGain) {
+                inhaleToneGain.disconnect();
+                inhaleToneGain = null;
+            }
+        }
+
+        /**
+         * Plays a single metronome click.
+         */
+        function playSingleMetronomeClick() {
+            if (!audioContext) return;
+
+            const oscillator = audioContext.createOscillator();
+            const gainNode = audioContext.createGain();
+
+            oscillator.type = 'sine';
+            oscillator.frequency.setValueAtTime(880, audioContext.currentTime); // High pitch for click
+            gainNode.gain.setValueAtTime(0.1, audioContext.currentTime); // Click volume
+
+            gainNode.gain.exponentialRampToValueAtTime(0.0001, audioContext.currentTime + 0.05); // Fast decay
+
+            oscillator.connect(gainNode);
+            gainNode.connect(audioContext.destination);
+
+            oscillator.start(audioContext.currentTime);
+            oscillator.stop(audioContext.currentTime + 0.1); // Short duration for click
+        }
+
+        /**
+         * Starts the metronome click sound sequence.
+         */
+        function startMetronomeClicks() {
+            if (!audioContext) return;
+
+            // Ensure only one metronome interval is running
+            stopMetronomeClicks();
+
+            // Play the first click immediately at the start of exhale
+            playSingleMetronomeClick();
+
+            // Schedule subsequent clicks
+            metronomeInterval = setInterval(playSingleMetronomeClick, 1000); // One click per second
+        }
+
+        /**
+         * Stops the metronome click sound.
+         */
+        function stopMetronomeClicks() {
+            if (metronomeInterval) {
+                clearInterval(metronomeInterval);
+                metronomeInterval = null;
+            }
+            // No need to stop metronomeOscillator or metronomeGain here,
+            // as playSingleMetronomeClick creates new ones for each click.
+        }
+
+        /**
+         * Formats seconds into MM:SS string.
+         * @param {number} seconds - The total seconds.
+         * @returns {string} Formatted time string.
+         */
+        function formatTime(seconds) {
+            const minutes = Math.floor(seconds / 60);
+            const remainingSeconds = seconds % 60;
+            return `${String(minutes).padStart(2, '0')}:${String(remainingSeconds).padStart(2, '0')}`;
+        }
+
+        /**
+         * Updates the breathing phase and schedules the next.
+         */
+        function handleBreathingPhase() {
+            if (!isRunning) return;
+
+            const svgElement = phaseIconElement.querySelector('svg');
+
+            if (currentBreathingPhase === 'inhale') {
+                breathingPhaseElement.textContent = `Inhale for ${INHALE_DURATION} seconds`;
+                phaseIconElement.innerHTML = ICONS['Inhale'];
+                if (svgElement) {
+                    svgElement.classList.add('inhale-animation');
+                    svgElement.classList.remove('exhale-animation');
+                }
+                stopMetronomeClicks(); // Stop metronome during inhale
+                startInhaleTone(); // Play continuous 108 Hz tone for inhale
+                currentBreathingPhase = 'exhale';
+                breathingPhaseTimeout = setTimeout(handleBreathingPhase, INHALE_DURATION * 1000);
+            } else { // currentBreathingPhase === 'exhale'
+                breathingPhaseElement.textContent = `Exhale for ${EXHALE_DURATION} seconds`;
+                phaseIconElement.innerHTML = ICONS['Exhale'];
+                if (svgElement) {
+                    svgElement.classList.add('exhale-animation');
+                    svgElement.classList.remove('inhale-animation');
+                }
+                stopInhaleTone(); // Stop inhale tones during exhale
+                startMetronomeClicks(); // Start metronome during exhale (first click immediate)
+                currentBreathingPhase = 'inhale';
+                breathingPhaseTimeout = setTimeout(handleBreathingPhase, EXHALE_DURATION * 1000);
+            }
+        }
+
+        /**
+         * Starts the entire breathing exercise session.
+         */
+        function startExercise() {
+            if (isRunning) return; // Prevent multiple starts
+            isRunning = true;
+            initializeAudio(); // Initialize audio context on start
+
+            startButton.disabled = true;
+            startButton.classList.add('opacity-50', 'cursor-not-allowed');
+            startButton.classList.remove('hover:bg-blue-700');
+
+            stopButton.disabled = false;
+            stopButton.classList.remove('opacity-50', 'cursor-not-allowed');
+            stopButton.classList.add('hover:bg-red-600');
+
+            currentSessionTime = SESSION_DURATION_SECONDS;
+            sessionTimerElement.textContent = formatTime(currentSessionTime);
+
+            currentBreathingPhase = 'inhale'; // Start with inhale
+            handleBreathingPhase(); // Initiate the first breathing phase
+
+            sessionCountdownInterval = setInterval(() => {
+                currentSessionTime--;
+                sessionTimerElement.textContent = formatTime(currentSessionTime);
+
+                if (currentSessionTime <= 0) {
+                    stopExercise();
+                    breathingPhaseElement.textContent = 'Session Completed!';
+                    phaseIconElement.innerHTML = ICONS['Completed'];
+                }
+            }, 1000);
+        }
+
+        /**
+         * Stops the entire breathing exercise session.
+         */
+        function stopExercise() {
+            isRunning = false;
+            if (breathingPhaseTimeout) clearTimeout(breathingPhaseTimeout);
+            if (sessionCountdownInterval) clearInterval(sessionCountdownInterval);
+            stopMetronomeClicks(); // Stop the metronome
+            stopInhaleTone(); // Stop inhale tones
+
+            breathingPhaseElement.textContent = 'Exercise Stopped';
+            phaseIconElement.innerHTML = ICONS['Ready']; // Revert to ready icon
+            sessionTimerElement.textContent = formatTime(SESSION_DURATION_SECONDS); // Reset timer display
+
+            startButton.disabled = false;
+            startButton.classList.remove('opacity-50', 'cursor-not-allowed');
+            startButton.classList.add('hover:bg-blue-700');
+
+            stopButton.disabled = true;
+            stopButton.classList.add('opacity-50', 'cursor-not-allowed');
+            stopButton.classList.remove('hover:bg-red-600');
+        }
+
+        // Event Listeners
+        startButton.addEventListener('click', startExercise);
+        stopButton.addEventListener('click', stopExercise);
+
+        // Initial setup on page load
+        document.addEventListener('DOMContentLoaded', () => {
+            sessionTimerElement.textContent = formatTime(SESSION_DURATION_SECONDS);
+            phaseIconElement.innerHTML = ICONS['Ready'];
+        });
+
+    </script>
+</body>
+</html>
