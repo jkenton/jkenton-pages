@@ -20,7 +20,7 @@
 
 title: jeffkenton.com
 email: jkenton+testing@gmail.com
-description: "Oh hello there!" >- # this means to ignore newlines until "baseurl:"
+description: >- # this means to ignore newlines until "baseurl:"
  
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jeffkenton.com" # the base hostname & protocol for your site, e.g. http://example.com
