@@ -4,7 +4,7 @@ tags:
 alias:
 date: 2025-08-12
 modified: 2025-08-12T09:13:29-04:00
-title: Dr. Kenton Wakes Up - Aug 11, 2025
+title: Dr. Kenton Wakes Up - Aug 12, 2025
 layout: post
 comments: true
 ---
