@@ -53,3 +53,6 @@ Brian Owens & Thomas Owens - *A Change is Gonna Come*
 
 
 Sam Cooke - *A Change is Gonna Come*
+
+
+*Then I go to my brother <br/>and I say brother "help me please" <br/>but he winds up knocking me <br/>back down on my knees.*
