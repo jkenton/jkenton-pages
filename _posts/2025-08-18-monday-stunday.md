@@ -26,12 +26,12 @@ The Traveling Wilburys - *Handle Me With Care*
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PLDIhqMWH00?si=tiYcREJsCM5D0JBx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Dua Lipa - *Thinking About You*
+Dua Lipa - *Thinking 'bout You*
 
 
 ---
 
 
 
-**Monday Be kind to yourself today**
+**Monday Be kind to yourself today**<br />
 **18th Choose an intention for the upcoming 30 days**
