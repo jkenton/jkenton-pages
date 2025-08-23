@@ -1,4 +1,3 @@
-
 ---
 source: 
 tags: 
@@ -26,9 +25,15 @@ Train - *Meet Virginia*
 
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hiNkQvV26H4?si=lUYkMoQ15vpmQjIc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Ruedi Rymann *Dr Schacher Seppli*
+
+---
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ApdlFiBJcBQ?si=X547EUiGQ5AKtX5l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Ruedi Rymann: *Dr Schacher Seppli*
-
+Live
 
 ---
