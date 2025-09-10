@@ -20,7 +20,7 @@ Gemini's response:
 
 Here’s a detailed breakdown of what that tells you about them:
 
-1. The "Guts of a Buffalo"
+### The "Guts of a Buffalo"
 
 This part of the phrase speaks to their core resilience and fortitude.
 
@@ -30,7 +30,7 @@ This part of the phrase speaks to their core resilience and fortitude.
 
 **Courageous (but not necessarily strategic):** They are not afraid to face a problem head-on. They have the courage to confront difficult situations and won't shy away from a fight or a major challenge.
 
-2. The "Brains of a Jackrabbit"
+### The "Brains of a Jackrabbit"
 
 This is the crucial, self-deprecating counterpoint. It describes their mental and strategic approach.
 
