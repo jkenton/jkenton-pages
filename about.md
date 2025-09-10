@@ -13,7 +13,7 @@ There is no need anymore to try to hide myself behind any euphemisms or *Noms de
 Enjoy your time here.
 
 ---
-<p>
+
 Just for fun, I asked Gemini: "If someone told you that they had the "guts of a buffalo and the brains of a jackrabbit," what would that tell you about them, their attitude toward life, their relative robustness in the face of challenges"
 
 Gemini's response:
