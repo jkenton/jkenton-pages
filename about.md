@@ -14,7 +14,7 @@ Enjoy your time here.
 
 ---
 
-Just for fun, I asked Gemini: "If someone told you that they had the "guts of a buffalo and the brains of a jackrabbit," what would that tell you about them, their attitude toward life, their relative robustness in the face of challenges"
+***Just for fun, I asked Gemini: "If someone told you that they had the "guts of a buffalo and the brains of a jackrabbit," what would that tell you about them, their attitude toward life, their relative robustness in the face of challenges"***
 
 Gemini's response:
 
@@ -56,5 +56,6 @@ The combination of these two traits creates a fascinating and paradoxical charac
 
 You could trust this person to have your back in a crisis and to never abandon a tough job, but you probably wouldn't ask them to create the strategic plan for that job in the first place.
 
+---
 
 To which I say..."Hmmm... Harsh. But fair."
