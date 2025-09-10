@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-jeffkenton.com is an evolution of a number of nore anonymizing blog sites. A Technician in the Studio, the Administrator's Apprentice, and a couple others before those are in that category. 
+jeffkenton.com is an evolution of a number of more anonymizing blog sites. A Technician in the Studio, the Administrator's Apprentice, and a couple others before those are in that category. 
 
 There is no need anymore to try to hide myself behind any euphemisms or *Noms de Plume* or whatever.
 
@@ -13,7 +13,7 @@ There is no need anymore to try to hide myself behind any euphemisms or *Noms de
 Enjoy your time here.
 
 ---
-
+<p>
 Just for fun, I asked Gemini: "If someone told you that they had the "guts of a buffalo and the brains of a jackrabbit," what would that tell you about them, their attitude toward life, their relative robustness in the face of challenges"
 
 Gemini's response:
@@ -57,4 +57,4 @@ The combination of these two traits creates a fascinating and paradoxical charac
 You could trust this person to have your back in a crisis and to never abandon a tough job, but you probably wouldn't ask them to create the strategic plan for that job in the first place.
 
 
-To which I say..."Hmmm..."
+To which I say..."Hmmm... Harsh. But fair."
