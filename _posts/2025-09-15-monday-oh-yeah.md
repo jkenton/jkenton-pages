@@ -30,3 +30,8 @@ The Doors - *People Are Strange*
 
 ---
 
+HAPPY SEPTEMBERTEENTH!
+
+Monday Be kind to yourself today
+
+15th Reflecting on the month so far (prior 30 days)
