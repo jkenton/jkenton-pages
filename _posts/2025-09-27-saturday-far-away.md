@@ -32,3 +32,12 @@ Frank Zappa - *In France*
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NQ1CZj1ja9I?si=66P98Yma9p971KmE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Fake Music - *Paradise City* (as if a mod 1960s band played it)
+
+
+---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6UCw62ImnjQ?si=ZABC_ppwkV4oYDaw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Fake Music - *Maybelline* (as if a 1980s punk band played it)
+
+[this one can be immediately improved by boosting the play speed to 1.5x. You are welcome.]
