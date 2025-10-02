@@ -21,7 +21,7 @@ comments: true
 
 Roger Hodgson - *Take The Long Way Home*
 
-(Roger was the singer for Supertramp; RIP)
+(Roger was the singer for Supertramp when this song was a hit)
 
 ---
 
