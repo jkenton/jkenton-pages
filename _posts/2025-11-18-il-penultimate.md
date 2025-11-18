@@ -26,5 +26,12 @@ Sergio Mendes - *Never Gonna Let You Go*
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OD70GvbeBJg?si=Y6EGIfd7iR2FjaIY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Trombone Shorty - *Something Beautiful *
+Trombone Shorty - *Something Beautiful*
 
+---
+
+Today is the Penultimate day of Novemberteenth:
+
+Tuesday Be kind to others today
+
+18th Choose an intention for the upcoming 30 days
