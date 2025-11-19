@@ -17,6 +17,12 @@ comments: true
 
 ---
 
+Wednesday Do something you like, what is something you like, but haven't done in a while that you can do before the next -teenth<br/>
+19th Planning for the next month (30 days out)
+
+
+---
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AdUBTE9JpgI?si=PfzMYpUdK2Y3IhGv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Suicidal Tendencies - *Institutionalized*
