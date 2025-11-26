@@ -11,15 +11,23 @@ comments: true
 
   
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/[replace]" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<!-- <img src="{{site.baseurl}}/images/[REPLACE]" width="560"> -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M1XncX-FW5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EOs0qeiJyIg?si=sl57iH1caUe3R07g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<img src="{{site.baseurl}}/images/e-clapton-layla.png" width="560"> -->
 
 Eric Clapton - *Layla*
+
+
+
+<!---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EOs0qeiJyIg?si=sl57iH1caUe3R07g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Eric Clapton - *Layla* --->
+
 
 ---
 
