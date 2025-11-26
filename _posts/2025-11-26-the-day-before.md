@@ -16,10 +16,11 @@ comments: true
 ---
 
 
-<img src="{{site.baseurl}}/images/e-clapton-layla.png" width="560"> -->
+<img src="{{site.baseurl}}/images/e-clapton-layla.png" width="560">
 
 Eric Clapton - *Layla*
 
+A rule is a rule. Malicious compliance is a feature, not a bug.
 
 
 <!---
