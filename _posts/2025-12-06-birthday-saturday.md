@@ -23,4 +23,7 @@ The Beatles - *Can't Buy Me Love*
 
 ---
 
-BONUS: https://youtube.com/shorts/6cRTkUaEkKw?feature=share
+BONUS: <iframe width="315" height="560" src="https://youtube.com/shorts/6cRTkUaEkKw?feature=share"></iframe>
+
+https://youtube.com/shorts/6cRTkUaEkKw?si=hKgqFJaOFwZdwNyx
+
