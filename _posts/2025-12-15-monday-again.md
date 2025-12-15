@@ -41,6 +41,6 @@ The Blues Brothers - *Theme from Rawhide*
 
 Decemberteenth the Third
 
-Monday Be kind to yourself today
+Monday Be kind to yourself today<br/>
 15th Reflecting on the month so far (prior 30 days)
 
