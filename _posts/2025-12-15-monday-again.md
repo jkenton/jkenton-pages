@@ -9,7 +9,7 @@ layout: post
 comments: true
 ---
 
-## **I talk about some recent violence, and suggest a simplistic explanation**
+### **I talk about some recent violence, and suggest a simplistic explanation**
   
 ## HAPPY DECEMBERTEENTH THE THIRD
 
