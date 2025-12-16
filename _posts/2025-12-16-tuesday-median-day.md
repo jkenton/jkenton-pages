@@ -17,7 +17,7 @@ comments: true
 
 ---
 
-Median Day of Decemebrteenth <br/>
+Median Day of Decemberteenth <br/>
 Tuesday Be kind to others today <br/>
 16th Look within / what physical and spiritual needs are as yet unmet?
 
