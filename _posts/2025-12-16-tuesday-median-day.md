@@ -2,9 +2,9 @@
 source:
 tags:
 alias:
-date: 2025-12-15
+date: 2025-12-16
 modified: 2025-12-16T07:56:51-05:00
-title: Dr. Kenton Wakes Up - Dec 15, 2025
+title: Dr. Kenton Wakes Up - Dec 16, 2025
 layout: post
 comments: true
 ---
