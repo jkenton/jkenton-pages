@@ -1,0 +1,31 @@
+---
+source:
+tags:
+alias:
+date: 2025-12-17
+modified: 2025-12-17T07:29:06-05:00
+title: Dr. Kenton Wakes Up - Dec 17, 2025
+layout: post
+comments: true
+---
+
+
+  ### Decemberteenth the Antepenultimate 
+  
+  Thursday Branch out / Try something new, what new thing would you like to try before the next -teenth? 
+  
+  17th Any important planning for upcoming trips or activities?
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/U64KYIQaN7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<!-- <img src="{{site.baseurl}}/images/[REPLACE]" width="560"> -->
+
+---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-4-AIzKkQMY?si=9rf3MSJ3SGXmui2i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Dire Straits - *Romeo and Juliet*
+
+---
+
+
