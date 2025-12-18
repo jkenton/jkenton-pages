@@ -10,7 +10,7 @@ comments: true
 ---
 
 
-  ###Decemberteenth the Antepenultimate 
+### Decemberteenth the Antepenultimate 
   
   Thursday Branch out / Try something new, what new thing would you like to try before the next -teenth? 
   
