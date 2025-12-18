@@ -12,9 +12,9 @@ comments: true
 
 ### Decemberteenth the Antepenultimate 
   
-  Thursday Branch out / Try something new, what new thing would you like to try before the next -teenth? 
-  
-  17th Any important planning for upcoming trips or activities?
+Wednesday Do something you like, what is something you like, but haven't done in a while that you can do before the next -teenth
+
+17th Any important planning for upcoming trips or activities?
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/U64KYIQaN7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 

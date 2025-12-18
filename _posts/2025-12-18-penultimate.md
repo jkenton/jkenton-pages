@@ -12,6 +12,7 @@ comments: true
 ### DECEMBERTEENTH NOTES
 
 Thursday Branch out / Try something new, what new thing would you like to try before the next -teenth?
+
 18th Choose an intention for the upcoming 30 days
 
 
