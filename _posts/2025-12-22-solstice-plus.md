@@ -31,6 +31,6 @@ Jim Croce - *Next Time, This Time*
 
 [JMK: This song had my all-time favorite line, describing just how over it the protagonist is. 
 
-*Save your good money on the phone<br/> 'cause I can hang up as fast as you can call*
+*Don't go wastin' your good money on the phone<br/> 'cause I can hang up as fast as you can call*
 
 Sometimes, people don't get to live as long as they might otherwise have. I'm glad they recorded those songs when they did.]
