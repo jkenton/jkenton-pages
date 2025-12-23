@@ -13,13 +13,7 @@ comments: true
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/22Zq_pRKKSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-<!-- <img src="{{site.baseurl}}/images/[REPLACE]" width="560"> -->
-
-
----
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Gs069dndIYk?si=WM2ZOzQmeao95e5O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<!-- <img src="{{site.baseurl}}/images/[REPLACE]" width="560"> -->---<iframe width="560" height="315" src="https://www.youtube.com/embed/Gs069dndIYk?si=WM2ZOzQmeao95e5O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Earth, Wind, & Fire - *September*
 

@@ -21,16 +21,10 @@ comments: true
 
 Bee Gees - *More Than A Woamn*
 
----
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VbD_kBJc_gI?si=-7rss8dzVrQOlLOX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+---<iframe width="560" height="315" src="https://www.youtube.com/embed/VbD_kBJc_gI?si=-7rss8dzVrQOlLOX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 David Bowie - *Let's Dance*
 
----
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F73EcycGCO8?si=w_oGZIVKXufadl_w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+---<iframe width="560" height="315" src="https://www.youtube.com/embed/F73EcycGCO8?si=w_oGZIVKXufadl_w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Stevie Ray Vaughan - *Crossfire*

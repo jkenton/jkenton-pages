@@ -10,10 +10,7 @@ comments: true
 
 ---
 
- <img src="/images/Seagalentines-Day.jpeg" alt="Aikido practitioner holding a heart">
-
-
- The other day, I heard some folks discussing their plans for getting together with friends in a non-romantic way on February 14. Folks with romantic partners would, I guess, be celebrating Valentine's Day. The people I heard were talking about ways to describe the event in a way that evoked the thought of Valentine's Day, without using those words. I heard Galentine's Day and Palentine's Day, among others.
+ <img src="/images/Seagalentines-Day.jpeg" alt="Aikido practitioner holding a heart"> The other day, I heard some folks discussing their plans for getting together with friends in a non-romantic way on February 14. Folks with romantic partners would, I guess, be celebrating Valentine's Day. The people I heard were talking about ways to describe the event in a way that evoked the thought of Valentine's Day, without using those words. I heard Galentine's Day and Palentine's Day, among others.
 
  My brain couldn't sit still. (Steven) Seagalentine's Day virtually burst forth like Athena from the skull of Zeus:
 
@@ -29,10 +26,7 @@ A person could, if they chose to, feature just the award-nominated movies from t
 - *On Deadly Ground*
 - *Executive Decision*
 - *Fire Down Below*
-- *Half Past Dead*
-
-
-Or the ones where Seagal played at least three of the four role types (Director, Producer, Writer, Actor)
+- *Half Past Dead*Or the ones where Seagal played at least three of the four role types (Director, Producer, Writer, Actor)
 - *Above the Law*
 - *On Deadly Ground*
 - *Shadow Man*

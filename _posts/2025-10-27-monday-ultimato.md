@@ -15,16 +15,10 @@ comments: true
 
 <!-- <img src="{{site.baseurl}}/images/[REPLACE]" width="560"> -->
 
----
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6V5VkMqM07s?si=efWrntyTwSWYyj91" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+---<iframe width="560" height="315" src="https://www.youtube.com/embed/6V5VkMqM07s?si=efWrntyTwSWYyj91" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Living Colour - *Open Letter to a Landlord*
 
----
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ldXdnZtTWp8?si=U9Q0c2VQ0cgaNZMm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+---<iframe width="560" height="315" src="https://www.youtube.com/embed/ldXdnZtTWp8?si=U9Q0c2VQ0cgaNZMm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Jethro Tull - *Thick as a Brick*

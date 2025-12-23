@@ -12,20 +12,11 @@ comments: true
   
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SavHLUnMtmU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
-
-Moments after this video was recorded, I decided to lay back down. Bam... an hour later I am awake again! I feel better about almost everything!
-
-
----
+Moments after this video was recorded, I decided to lay back down. Bam... an hour later I am awake again! I feel better about almost everything!---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JGwWNGJdvx8?si=r-uSDlBM4b6DimB_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Ed Sheeran - *Shape of You*
-
-
----
+Ed Sheeran - *Shape of You*---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fuKDBPw8wQA?si=uRP8zyAYeRZwRoR5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

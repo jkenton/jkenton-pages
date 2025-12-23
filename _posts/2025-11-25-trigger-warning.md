@@ -7,10 +7,7 @@ modified: 2025-11-25T10:08:11-05:00
 title: Dr. Kenton Wakes Up - Nov 25, 2025
 layout: post
 comments: true
----
-
-
-## TRIGGER WARNING - DOMESTIC VIOLENCE
+---## TRIGGER WARNING - DOMESTIC VIOLENCE
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Zf4Ct5i72bQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -22,10 +19,7 @@ comments: true
 
 The Rolling Stones - *19th Nervous Breakdown*
 
----
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xzjfw6I78jI?si=qcxDuuPwyZQz6Gth" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+---<iframe width="560" height="315" src="https://www.youtube.com/embed/xzjfw6I78jI?si=qcxDuuPwyZQz6Gth" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 The Guess Who - *No Sugar Tonight / New Mother Nature*
 

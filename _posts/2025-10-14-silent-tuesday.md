@@ -23,7 +23,4 @@ Buffalo Springfield - *For What It's Worth*
 
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AQOlwMKpmvQ?si=ShqIsdHv0RApqJWE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
-Crowded House - *Better Be Home Soon*
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AQOlwMKpmvQ?si=ShqIsdHv0RApqJWE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>Crowded House - *Better Be Home Soon*

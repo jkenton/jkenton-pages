@@ -18,10 +18,7 @@ comments: true
 ---
 
 "'Change' is scientific, 'progress' is ethical; change is indubitable, whereas progress is a matter of controversy"
--- Bertrand Russell
-
-
----
+-- Bertrand Russell---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XpqqjU7u5Yc?si=tYE-xEGn9USIaOMZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

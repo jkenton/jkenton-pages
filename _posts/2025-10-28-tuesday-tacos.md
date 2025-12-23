@@ -25,10 +25,7 @@ The Doobie Brothers - *Jesus Is Just Alright With Me*
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/a7kduNihACs?si=JjeCqzFHcJ3-IF7l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Steely Dan - *Kid Charlemagne*
-
-
----
+Steely Dan - *Kid Charlemagne*---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_nyw5hbfD8c?si=kKwyRUZtkq4TbaS7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

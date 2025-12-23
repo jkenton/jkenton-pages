@@ -19,10 +19,7 @@ I'm a GEn X'er. INXS played around me a lot...
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F93ywiGMDnQ?si=S_Rs1NQ0YOgZ_Eos" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-INXS - *Need You Tonight*
-
-
-JMK: This one was rumored to have been written in 10 minutes (the lyrics anyway). I wonder if there is a setlist somewhere of songs that were written in one short session?
+INXS - *Need You Tonight*JMK: This one was rumored to have been written in 10 minutes (the lyrics anyway). I wonder if there is a setlist somewhere of songs that were written in one short session?
 
 ---
 

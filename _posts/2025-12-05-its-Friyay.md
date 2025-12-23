@@ -13,15 +13,9 @@ comments: true
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XPYYqMOdCQU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-<!-- <img src="{{site.baseurl}}/images/[REPLACE]" width="560"> -->
-
-
----
+<!-- <img src="{{site.baseurl}}/images/[REPLACE]" width="560"> -->---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/k1ljpLQ1V6Y?si=TeGOrPMHmb21g4cW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Sade - *Your Love is King*
-
-
----
+Sade - *Your Love is King*---
 

@@ -29,9 +29,6 @@ Spin Doctors - *Little Miss Can't Be Wrong*
 
 ---
 
-[And in the wisdom of the algorithm...]
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LuzlbR5V_hc?si=Cie0JV7YxmPrLcs_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[And in the wisdom of the algorithm...]<iframe width="560" height="315" src="https://www.youtube.com/embed/LuzlbR5V_hc?si=Cie0JV7YxmPrLcs_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Bill Withers - *Use Me*

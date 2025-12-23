@@ -11,10 +11,7 @@ comments: true
 
   
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Wy7FHvrE7kY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
-<!-- <img src="{{site.baseurl}}/images/[REPLACE]" width="560"> -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Wy7FHvrE7kY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><!-- <img src="{{site.baseurl}}/images/[REPLACE]" width="560"> -->
 
 ---
 
@@ -28,10 +25,4 @@ James Taylor & Carole King - *You've Got a Friend*
 
 Randy Newman - *You've Got a Friend in Me*
 
----
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/h3WJiqc_bEs?si=ZopAYweWpV-XfK2l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
-The Beatles - *Can't Buy Me Love*
+---<iframe width="560" height="315" src="https://www.youtube.com/embed/h3WJiqc_bEs?si=ZopAYweWpV-XfK2l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>The Beatles - *Can't Buy Me Love*

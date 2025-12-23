@@ -11,13 +11,7 @@ comments: true
 
   
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7KgI5Vkg-YI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
----
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/A8ZYRLMKBrw?si=DHT92jvNiBnvnLBn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7KgI5Vkg-YI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>---<iframe width="560" height="315" src="https://www.youtube.com/embed/A8ZYRLMKBrw?si=DHT92jvNiBnvnLBn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Can't you tell that they secretly deep down are envious / jealous / admiring each other? I bet there were physical altercations in the past. Perhaps even battery! There is a moment where Sting looks at Stewart with a bemused expression. 
 
@@ -26,7 +20,4 @@ That expression reminds me of one that Tom Petty gave Prince when Prince put a h
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6SFNW5F8K9Y?si=sjuobzbilZVBgbTn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
-
 

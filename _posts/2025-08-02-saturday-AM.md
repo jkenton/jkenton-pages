@@ -11,20 +11,11 @@ comments: true
 
   
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-satihdGK6o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-satihdGK6o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><!-- <img src="{{site.baseurl}}/images/[REPLACE]" width="560"> -->
 
+---<iframe width="560" height="315" src="https://www.youtube.com/embed/Bel7WcHeUXY?si=FRCwXhSHIZb-1LAQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<!-- <img src="{{site.baseurl}}/images/[REPLACE]" width="560"> -->
-
----
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Bel7WcHeUXY?si=FRCwXhSHIZb-1LAQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-Mason Williams - *Classical Gas*
-
-
----
+Mason Williams - *Classical Gas*---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CJ54eImz88w?si=WYW6Q8Mlgv6SsZZd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

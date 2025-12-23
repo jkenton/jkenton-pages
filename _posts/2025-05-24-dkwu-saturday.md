@@ -12,9 +12,6 @@ comments: true
   
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6gUFKXkqpdE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
-
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/k1ljpLQ1V6Y?si=17oeJuzdxJBH0OOs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -23,10 +20,7 @@ Lately, Sade has been bouncing around in my head, clearly.
 
 ---
 
- <img src="/images/da-pope.jpeg" alt="Pope Leo XIV (then Robert Prevost), left, at 2005 Game I World Series">
-
-
-[This is a partial rant about the frustration that comes with people being surprised at the nature of people's memories. And before I go even one step further, I do not KNOW that any of my suppositions below are true. I made them confidently because the explanation I provided is so plausible. And it bothers me that people aren't very curious about things that they blabber about on TV.]
+ <img src="/images/da-pope.jpeg" alt="Pope Leo XIV (then Robert Prevost), left, at 2005 Game I World Series">[This is a partial rant about the frustration that comes with people being surprised at the nature of people's memories. And before I go even one step further, I do not KNOW that any of my suppositions below are true. I made them confidently because the explanation I provided is so plausible. And it bothers me that people aren't very curious about things that they blabber about on TV.]
 
 Anyway, we have a new pope Leo XIV, as of May 8, 2025. His name previously was Robert Prevost, born in Chicago in 1955. He grew up in Chicago and his ministry, his assignment through the church was in Chicago, Rome, and Peru. A couple of countries that never had a pope before now each claim him, and that's great.
 

@@ -11,10 +11,7 @@ comments: true
 
   
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wkIcoDyydBA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
----
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wkIcoDyydBA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0-EF60neguk?si=jdxnEy6Z79WlGlIe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -30,10 +27,7 @@ Prince - *Nothing Compares 2 U*
 
 The original composition in 1984.
 
----
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IuUDRU9-HRk?si=bb9NTJzxxfLbVIQN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+---<iframe width="560" height="315" src="https://www.youtube.com/embed/IuUDRU9-HRk?si=bb9NTJzxxfLbVIQN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Chris Cornell - *Nothing Compares 2 U*
 

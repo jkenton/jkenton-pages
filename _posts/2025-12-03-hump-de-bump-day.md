@@ -19,13 +19,7 @@ comments: true
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wEBlaMOmKV4?si=It0R-bAcH1RQBCh8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Sam Cooke - *A Change is Gonna Come*
-
-
----
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wqEf6XNPTuE?si=KXuSKM4lI6-XFT5j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Sam Cooke - *A Change is Gonna Come*---<iframe width="560" height="315" src="https://www.youtube.com/embed/wqEf6XNPTuE?si=KXuSKM4lI6-XFT5j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Parliament - *Come in out of the Rain*
 

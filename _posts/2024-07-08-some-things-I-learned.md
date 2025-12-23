@@ -4,9 +4,6 @@ date: 2024-07-08 06:00:00
 layout: post
 comments: true
 ---
-
-
-
 1. **I am convinced that I subconsciously carry unprocessed mental remnants of my past, and that there are plenty of physical artifacts that attend those.** So, when encountering something that seems out of place, or strange, I ask myself, "Does this suit a current purpose?" If so, find a place for it. If not, consider whether this thing is the only remnant that can satisfy its purpose. If so, find a place for it. Otherwise, if it's fungible or not currently needed, donate it or trash it.
 2. **I miscalculated an experience from my middle school years, and misplaced a lot of effort as a result.** I miscalculated about the limits of being prepared for an event. I got a detention for forgetting to bring my homework to the classroom, despite a request to run to my locker to retrieve it. From that point, I pledged to never come to any event unprepared. I accept that it is both impossible and unnecessary to be prepared for EVERY possible outcome. Considering every possible outcome is a waste of mental resources and precious time.
 3. **Another miscalculation from my early teens was about the limits of spending money on frivolous things.** As a kid, I would spend any money that I had, as soon as I got it. There was an attempt to help me see that I didn't NEED to spend money on certain things (i.e. food, snacks, video games), because those things were already being provided. I instead interpreted that nearly every expenditure was frivolous and should be avoided, ESPECIALLY if the expense was high. I became very willing to learn to fix things myself, and buying the least expensive potential solution. Yet, often those potential solutions either did not work or they needed to be repeated regularly, costing far more in the long run. Instead, I will focus on solving the problem fully and completely, and paying what is fair and reasonable for the full solution.

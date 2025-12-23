@@ -22,10 +22,7 @@ comments: true
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DsJ5aYK-S6Y?si=RtDrgTr90wTFRSx4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Dire Straits - *Twisting by the Pool*
-
-
----
+Dire Straits - *Twisting by the Pool*---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aJ9usrpAPao?si=b7iNUSZYzdaQsnMZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

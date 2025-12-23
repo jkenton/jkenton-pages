@@ -13,26 +13,17 @@ comments: true
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1YTbgfFm5TU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-<!-- <img src="{{site.baseurl}}/images/[REPLACE]" width="560"> -->
-
-
----
+<!-- <img src="{{site.baseurl}}/images/[REPLACE]" width="560"> -->---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/A3Qvb7q9Nm0?si=RMij3G1F1UmOzmOf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Train - *Meet Virginia*
-
-
----
+Train - *Meet Virginia*---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8QxIIz1yEsA?si=NxbqHUrbV096eVg5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Bishop Bullwinkle - *Hell to the Naw, Naw, Naw*
 
----
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/s-F4-FI8A0I?si=Nx4MFkYI3RDZTOxO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+---<iframe width="560" height="315" src="https://www.youtube.com/embed/s-F4-FI8A0I?si=Nx4MFkYI3RDZTOxO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Ray Hagins - *Whoop Somebody's Ass*
 

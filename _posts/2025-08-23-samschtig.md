@@ -14,9 +14,6 @@ comments: true
 <iframe width="560" height="315" src="https://www.youtube.com/embed/I9Q5Gd1Ivnw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <!-- <img src="{{site.baseurl}}/images/[REPLACE]" width="560"> -->
-
-
-
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/A3Qvb7q9Nm0?si=TpgFTg7G2ouBP96H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

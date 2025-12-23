@@ -20,13 +20,7 @@ HAPPY 60TH BIRTHDAY SLASH
 
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7G2-FPlvY58?si=A2sLIf_89TfaAbgd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
-The Doors - *Riders on the Storm*
-
-
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7G2-FPlvY58?si=A2sLIf_89TfaAbgd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>The Doors - *Riders on the Storm*
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1w7OgIMMRc4?si=_4lwXf-EXhU02bof" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

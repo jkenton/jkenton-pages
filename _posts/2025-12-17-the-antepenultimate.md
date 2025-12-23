@@ -7,10 +7,7 @@ modified: 2025-12-17T07:29:06-05:00
 title: Dr. Kenton Wakes Up - Dec 17, 2025
 layout: post
 comments: true
----
-
-
-### Decemberteenth the Antepenultimate 
+---### Decemberteenth the Antepenultimate 
   
 Wednesday Do something you like, what is something you like, but haven't done in a while that you can do before the next -teenth
 

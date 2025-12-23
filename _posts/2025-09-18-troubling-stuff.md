@@ -15,23 +15,11 @@ comments: true
 
 <!-- <img src="{{site.baseurl}}/images/[REPLACE]" width="560"> -->
 
----
+---<iframe width="560" height="315" src="https://www.youtube.com/embed/K07Yq4zGTcI?si=OADb42G0zfTijvYu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+The Sex Pistols - *Anarchy in the UK*---<iframe width="560" height="315" src="https://www.youtube.com/embed/hTUAaW3oGGo?si=66rmUXlogynpPfOR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/K07Yq4zGTcI?si=OADb42G0zfTijvYu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-The Sex Pistols - *Anarchy in the UK*
-
-
----
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hTUAaW3oGGo?si=66rmUXlogynpPfOR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-Violent Femmes - *Kiss Off*
-
-
----
+Violent Femmes - *Kiss Off*---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8qW44dgpUZw?si=Qcd2c9zrkH15W4xp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

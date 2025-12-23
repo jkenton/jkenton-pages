@@ -18,16 +18,8 @@ comments: true
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WaKIX6oaSLs?si=UQSeAKZ81Sz_cTCa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Arlo Guthrie - *Alice's Restaurant*
-
-
----
+Arlo Guthrie - *Alice's Restaurant*---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nuko5fhd4mA?si=rLChGSSIy8iA-t1x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Crosby, Stills & Nash - *Just a Song Before I Go*
-
-
----
-
-
+Crosby, Stills & Nash - *Just a Song Before I Go*---

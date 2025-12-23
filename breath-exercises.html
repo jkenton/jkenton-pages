@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breathing Exercises</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles for background and font */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8; /* Light blue-gray background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        /* Animation for the breathing circle */
+        .breathing-circle {
+            transition: transform 0.8s ease-in-out; /* Smooth transition for 5-sec breaths */
+        }
+
+        .inhale-animation {
+            transform: scale(1.15); /* Slightly larger for inhale */
+        }
+
+        .exhale-animation {
+            transform: scale(0.85); /* Slightly smaller for exhale */
+        }
+
+        /* Specific styles for phase icons/text visibility */
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="container bg-white rounded-xl shadow-lg p-8 md:p-12 w-full max-w-md mx-auto text-center border border-gray-200">
+        <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Guided Breathing</h1>
+
+        <h2 class="text-2xl text-left md:text-2xl font-bold text-gray-800 mb-6">These are breathing exercises I have gathered over time, and found them to be useful.</h2>
+       <h3 class="text-1xl text-left md:text-1xl font-bold text-gray-800 mb-6"> Some of them have names, and others I have named based either on the sequence of the actions (4-7-8) or by the name of the person who brought them to my attention.
+<br/><br/>
+<ul>
+    <li><a href="4-7-8.html">4-7-8</a></li>
+    <li><a href="box.html">Box Breathing</a></li>
+    <li><a href="rubin.html">Rubin (5-5)</a></li>
+    <li><a href="wim-hof.html">Wim-Hof</a></li>
+
+</ul>
+</h3>
+    </div>
+
+   
+</body>
+</html>

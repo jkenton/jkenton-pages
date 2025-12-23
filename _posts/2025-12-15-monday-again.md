@@ -17,10 +17,7 @@ comments: true
 
 <!-- <img src="{{site.baseurl}}/images/[REPLACE]" width="560"> -->
 
----
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/otPQDEbVsc4?si=2AGQ-6xM6NSyA0h-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+---<iframe width="560" height="315" src="https://www.youtube.com/embed/otPQDEbVsc4?si=2AGQ-6xM6NSyA0h-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Joni Mitchell - *Help Me*
 
@@ -28,10 +25,7 @@ Joni Mitchell - *Help Me*
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DLbObZ42iK4?si=H5l_GMTKM8db5Z5G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Sir Mix A Lot - *Buttermilk Biscuits*
-
-
----
+Sir Mix A Lot - *Buttermilk Biscuits*---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rtP7yH7l87w?si=I3HvfBz_nrbLTVbr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

@@ -23,18 +23,10 @@ Roger Hodgson - *Take The Long Way Home*
 
 (Roger wrote this for Supertramp when this song was a hit)
 
----
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/M3i-szDh10w?si=y_VrP4KKFlq09k8h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+---<iframe width="560" height="315" src="https://www.youtube.com/embed/M3i-szDh10w?si=y_VrP4KKFlq09k8h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Fake Music cover of *Killing in the Name* by Rage Against the Machine
 
----
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3L4YrGaR8E4?si=aW_mYywFL6Wk73B6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+---<iframe width="560" height="315" src="https://www.youtube.com/embed/3L4YrGaR8E4?si=aW_mYywFL6Wk73B6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Rage Against the Machine - *Bulls on Parade*
-
-

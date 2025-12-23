@@ -11,10 +11,7 @@ comments: true
 
   
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HOzcS1tKssY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
----
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HOzcS1tKssY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UfzmVUrZplw?si=4t8ruH3G-tiWDShc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -28,10 +25,7 @@ Here is an example:
 
 ---
 
-**jmk:** I need some help figuring out how to collect and manage the tasks and requests that come to me through email, conversations with others, and other readings. What is the most efficient and effective way to process those inputs?
-
-
-**Spock**: The most logical approach to managing disparate inputs necessitates a centralized processing system. It is inefficient and therefore illogical to maintain separate repositories for tasks derived from email, direct verbal communication, or textual analysis. I propose a hierarchical system of classification and prioritization.
+**jmk:** I need some help figuring out how to collect and manage the tasks and requests that come to me through email, conversations with others, and other readings. What is the most efficient and effective way to process those inputs?**Spock**: The most logical approach to managing disparate inputs necessitates a centralized processing system. It is inefficient and therefore illogical to maintain separate repositories for tasks derived from email, direct verbal communication, or textual analysis. I propose a hierarchical system of classification and prioritization.
 
 Firstly, a dedicated system for input capture is paramount. This could be a digital database or a physical log, depending on the individual's preference and the volume of incoming data. All tasks, regardless of their origin, must be immediately transcribed into this central repository.
 

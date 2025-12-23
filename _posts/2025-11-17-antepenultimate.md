@@ -28,10 +28,7 @@ The Beths - *Expert in a Dying Field*
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WeeRjAOEg3o?si=UPsTVfaZ1MxV93p-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Tom Petty - *You Got Lucky*
-
-
----
+Tom Petty - *You Got Lucky*---
 
 And here is your Novemberteenth Checklist, for this, the ANTEPENULTIMATE day of Novemberteenth
   
