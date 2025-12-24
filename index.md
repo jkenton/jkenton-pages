@@ -8,7 +8,7 @@ layout: default
 <h3 class="page-heading">Posts</h3>
 
   <ul class="post-list">
-    {% for post in site.posts limit:10 %}
+    {% for post in site.posts limit:20 %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
