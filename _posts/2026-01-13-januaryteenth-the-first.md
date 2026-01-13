@@ -10,6 +10,14 @@ comments: true
 ---
 
 
+### First day of Januaryteenth
+
+Tuesday Be kind to others today<br/>
+13th Are your personal management systems serving you? Review them and decide.
+
+
+---
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/J_NKIb8v4kM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
