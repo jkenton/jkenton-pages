@@ -10,6 +10,13 @@ comments: true
 ---
 
 
+### Third Day of Januaryteenth
+
+Thursday Branch out / Try something new, what new thing would you like to try before the next -teenth? <br />
+15th Reflecting on the month so far (prior 30 days)
+
+
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TTK-_vri1yo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
