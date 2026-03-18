@@ -9,6 +9,13 @@ layout: post
 comments: true
 ---
 
+## Happy Penultimate Day of Marchteenth!
+
+Wednesday Do something you like, what is something you like, but haven't done in a while that you can do before the next -teenth<br />
+18th Choose an intention for the upcoming 30 days
+
+---
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7JpIXkJOd8U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -16,6 +23,10 @@ comments: true
 ---
 
 <img src="{{site.baseurl}}/images/monetization.png" width="560">
+
+I don't know why this alert showed up on my screen while trying to post this morning's update to the Adventure Log in Mild Confusion. Monitor and report back any changes...
+
+
 
 ---
 
