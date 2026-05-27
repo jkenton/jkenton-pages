@@ -21,7 +21,7 @@ comments: true
 <iframe width="560" height="315" src="https://www.youtube.com/embed/x_Wz1DRuPJo?si=qoYZBfMIWRzku2IA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-REM - *Superman*
+R.E.M. - *Superman*
 
 
 
@@ -31,7 +31,7 @@ REM - *Superman*
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_NSJbEeNSe0?si=qyYCnhr4e-51VY-s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-REM - Swan Swan H
+R.E.M. - Swan Swan H
 
 ---
 
@@ -41,4 +41,4 @@ REM - Swan Swan H
 
 
 
-REM - Stand
+R.E.M. - Stand
