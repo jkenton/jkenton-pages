@@ -3,7 +3,7 @@ source:
 tags:
 alias:
 date: 2026-05-26
-title: Dr. Kenton Wakes Up.  May 26, 2026
+title: Dr. Kenton Wakes Up - May 26, 2026
 
 layout: post
 comments: true
