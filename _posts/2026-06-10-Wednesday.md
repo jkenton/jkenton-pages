@@ -31,3 +31,8 @@ Chris Cornell - *Nothing Compares 2 U*
 
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cpGA0azFdCs?si=zy31tVpcT9LqqSAi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Prince - *Nothing Compares 2 U*
+
+[Ed: I mean, if you have the original song... I mean, c'mon...]
