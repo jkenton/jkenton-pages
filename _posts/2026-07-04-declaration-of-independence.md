@@ -9,6 +9,9 @@ layout: post
 comments: false
 ---
 
+[Ed: around about 250 years ago, a ragtag group of misfits decided that they were fed up. That the King had mistreated them for the last time. That they wanted to take their turn as 13 separate states, united in their cause against the King. It will still be about 20 years before they decided to Unite as one country (United States), instead of a confederation of 13 separate entities (united States). A distinction with an important difference. Enjoy.]
+
+
 *The following text is a transcription of the Stone Engraving of the parchment Declaration of Independence (the document on display in [the Rotunda at the National Archives Museum](https://museum.archives.gov/founding-documents).) The spelling and punctuation reflects the original.*
 
 
