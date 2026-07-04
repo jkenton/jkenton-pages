@@ -6,7 +6,7 @@ date: 2026-07-04
 title: The Declaration of Independence
 
 layout: post
-comments: true
+comments: false
 ---
 
 *The following text is a transcription of the Stone Engraving of the parchment Declaration of Independence (the document on display in [the Rotunda at the National Archives Museum](https://museum.archives.gov/founding-documents).) The spelling and punctuation reflects the original.*
