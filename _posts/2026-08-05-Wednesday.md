@@ -34,3 +34,7 @@ Extreme - *More Than Words*
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cEXhZ8PwM-Y?si=X_AJ2jEc-F4izSpI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Brian Owens Soul - *A Change is Gonna Come* (Sam Cooke Cover)
+
+*Then I go to my brother<br />And I say, "Brother, help me please"<br />But he winds up<br />Knockin' me<br />Back down on my knees<br />*
+
+Oh man...
