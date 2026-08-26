@@ -27,3 +27,5 @@ Dolly Parton - *9 to 5*
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rhKo0BXikM8?si=z9hy5nX7rvVGRdke" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Dolly Parton and Miss Piggy - *Miss Piggy's Tour Bus*
+
+[Ed: If you skip to the 4:22 point, you will see Dolly drop a truth bomb on Miss Piggy. But in a nice way.]
