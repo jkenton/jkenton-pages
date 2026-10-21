@@ -15,10 +15,7 @@ comments: true
 
 <!-- <img src="{{site.baseurl}}/images/[REPLACE]" width="560"> -->
 
----
 
-
-Procul Harum - *Whiter Shade of Pale*
 
 
 ---
