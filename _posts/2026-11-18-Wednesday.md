@@ -20,6 +20,7 @@ Wednesday Do something you like, what is something you like, but haven't done in
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/[replace]" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+[Ed: to my eternal shame, I read the entry for THURSDAY in the monthteenth section... There is a reason it is called "Dr. Kenton Wakes Up, after all. I regret the error.]
 
 <!-- <img src="{{site.baseurl}}/images/[REPLACE]" width="560"> -->
 
